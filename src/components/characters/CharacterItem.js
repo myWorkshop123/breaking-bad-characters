@@ -20,7 +20,7 @@ const CharacterItem = ({ item }) => {
               <strong>Birthday:</strong> {item.birthday}
             </li>
             <li>
-              <strong>Status:</strong> {item.status}
+              <strong>Occupation:</strong> {item.occupation[0]}
             </li>
           </ul>
         </div>
